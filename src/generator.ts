@@ -188,6 +188,7 @@ export const generateSchemaForModel = (
 												type: 'OptionalBoolean',
 												isList: false,
 												documentation: undefined,
+												isRequired: true,
 											})}`
 										)
 										.write(',')

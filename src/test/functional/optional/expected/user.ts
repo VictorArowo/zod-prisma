@@ -19,7 +19,7 @@ export const UserModel = z.object({
 
 export const UserModelSelect = z.object({
   id: z.boolean().optional(),
-  meta: z.boolean().optional().nullish(),
+  meta: z.boolean().optional(),
 })
 
 export interface CompleteUser extends z.infer<typeof UserModel> {
